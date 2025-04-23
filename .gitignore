@@ -1,0 +1,7 @@
+﻿.pyannote_env/
+Working/
+Bin/
+build/
+dist/
+extracted_bins/
+.venv/
