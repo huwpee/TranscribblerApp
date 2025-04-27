@@ -38,7 +38,8 @@ Troubleshooting
 If you see a “401 Unauthorized” error during diarisation, confirm that you have accepted the model licence on Hugging Face and that your `PYANNOTE_AUTH_TOKEN` environment variable is set correctly. If FFmpeg cannot be found, run  
 ```powershell
 ffmpeg -version
-```  
+```
+If TransribllerApp.exe cannot be found, try C:\Program Files (x86)\TranscribblerApp\TranscribblerApp.exe
 in PowerShell to verify that the installer appended the FFmpeg subfolder to your PATH. If it fails, you may need to adjust your PATH manually or install FFmpeg separately.
 
 Support  
