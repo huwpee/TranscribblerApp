@@ -2,6 +2,20 @@
 
 TranscribblerApp is a Windows command‑line tool that performs speech‑to‑text transcription using OpenAI’s Whisper and speaker diarisation with Pyannote. It ships as a single, standalone installer that bundles Python, Whisper, Pyannote, all necessary patches and hooks, plus the FFmpeg executable. End users need only run the installer—no additional dependency installation is required.
 
+# TranscribblerApp
+
+## Requirements
+
+- **FFmpeg**: Required for audio processing
+  - Download from: https://ffmpeg.org/download.html
+  - Make sure FFmpeg is in your system PATH or in the same directory as TranscribblerApp
+
+## Installation
+
+1. Download and install TranscribblerApp using the installer
+2. Ensure FFmpeg is installed (see Requirements section)
+3. Run TranscribblerApp from the Start menu or desktop shortcut
+
 Installation  
 Download `TranscribblerAppInstaller-1.0.0.exe` from the project’s GitHub Releases page and launch it with administrator privileges. By default, TranscribblerApp installs to  
 ```
